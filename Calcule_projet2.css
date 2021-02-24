@@ -1,0 +1,97 @@
+ body
+{ 
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 150vh;
+background :#871ee9;
+} 
+.calcul 
+{
+    position:relative;
+    left: 99%;
+    margin-top: 10%;
+    display: grid;
+}  
+.calcul .value
+{ 
+    grid-column: span 5;
+    height: 75px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: lightblue;
+}
+.calcul span
+{ 
+    display: grid;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	background: #0c2835;
+	place-items: center;
+	border: 1px solid rgba(0,0,0,.1)
+} 
+
+.calcul span.effacer
+{ 
+    background-color: #00FFB3;
+   color: red;
+}
+.calcul span.moin
+{ 
+    background-color: #C4293A;
+
+
+}
+.calcul span.plus
+{ 
+    background-color: #C4293A;
+}
+.calcul span.egale
+{ 
+    background-color: #00FFFF;
+}
+{
+    color: #871ee9;
+}
+
+.calcul span.mult
+{ 
+    background-color: #C4293A;
+
+}
+
+.calcul span.pourc
+{ 
+    background-color: #C4293A;
+
+}
+.calcul span.div
+{ 
+    background-color: #C4293A;
+
+
+}
+
+
+
+
+
+.container span
+{ 
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+.container span
+{ 
+    color: rgb(5, 5, 5);
+    font-size:50px;
+}
+#id  {
+    margin-right: 3%;
+}
